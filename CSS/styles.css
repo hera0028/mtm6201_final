@@ -1,0 +1,223 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4 {
+    font-weight: 700;
+    margin: 0;
+}
+
+p {
+    margin: 0 0 1rem;
+}
+
+/* Header Styles */
+header {
+    background: #000;
+    color: #fff;
+}
+
+header .nav-link {
+    color: #fff;
+    transition: color 0.3s ease;
+}
+
+header .nav-link:hover {
+    color: #f39c12;
+}
+
+.child video {
+    position: absolute;
+    left: -100%;
+    right: -100%;
+    top: -100%;
+    bottom: -100%;
+    width: 100%;
+    height: 550px;
+    margin: auto;
+    opacity: 70%;
+}
+
+/* Hero Section */
+.hero {
+    position: relative;
+    text-align: center;
+    color: #fff;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero h2 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: #0e94ee;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+}
+
+.hero .btn {
+    background-color: #f39c12;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.hero .btn:hover {
+    background-color: #e67e22;
+}
+
+/* Services Section */
+#services {
+    background: #f9f9f9;
+    padding: 50px 0;
+}
+
+#services img {
+    max-width: 100%;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#services img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+#services h4 {
+    margin-top: 15px;
+    font-size: 1.5rem;
+    color: #333;
+    font-weight: bold;
+}
+
+#services p {
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Portfolio Section */
+#portfolio {
+    padding: 50px 0;
+    background: #f0f0f0;
+}
+
+#portfolio img {
+    max-width: 100%;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#portfolio img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+#portfolio .btn {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+}
+
+#portfolio .btn:hover {
+    background-color: #555;
+}
+
+/* About Section */
+#about {
+    background: #fff;
+    padding: 50px 0;
+}
+
+#about img {
+    max-width: 100%;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#about img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+#about p {
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Contact Section */
+#contact {
+    background: #000;
+    color: #fff;
+    padding: 50px 0;
+}
+
+#contact input, #contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#contact button {
+    background-color: #f39c12;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+}
+
+#contact button:hover {
+    background-color: #e67e22;
+}
+
+/* Footer */
+footer {
+    background: #f9f9f9;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+    color: #555;
+}
+
+footer .social-icons a {
+    color: #333;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+}
+
+footer .social-icons a:hover {
+    color: #f39c12;
+}
+
+/* Embedded Map Styles */
+footer iframe {
+    width: 100%;
+    height: 450px;
+    border: none;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
